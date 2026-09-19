@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment{
+        JWT_SECRET = credentials('JWT_SECRET')
+    }
     stages{
         stage('Clone'){
             steps{
