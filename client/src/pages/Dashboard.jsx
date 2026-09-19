@@ -162,7 +162,7 @@ export default function Dashboard() {
             <div className="brand-icon-box">
               <IconListTodo size={22} />
             </div>
-            <span className="brand-title">TaskFlow</span>
+            <span className="brand-title">TaskFlows</span>
           </div>
 
           <div className="navbar-actions">
